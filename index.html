@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Tic Tac Toe</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="./style.css">
+
+        
+        
+    </head>
+    <body>
+        
+            <div id="board">
+                <div class="vertical-line vertical-first"></div>
+                <div class ="vertical-line vertical-second"></div>
+                
+                <div class="horizontal-line horizontal-first"></div>
+                <div class="horizontal-line horizontal-second"></div>
+                
+                <button class="field" id="field_1"></button>
+                <button class="field" id="field_2"></button>
+                <button class="field" id="field_3"></button>
+                <button class="field" id="field_4"></button>
+                <button class="field" id="field_5"></button>
+                <button class="field" id="field_6"></button>
+                <button class="field" id="field_7"></button>
+                <button class="field" id="field_8"></button>
+                <button class="field" id="field_9"></button>
+
+            </div>
+
+            <button id="reset">Reset</button>
+
+            <div class="score">
+                <div class="score-divs">Wins:</div><span class="score-divs" id="wins">0</span><br>
+                <div class="score-divs">Losses:</div><span class="score-divs" id="losses">0</span><br>
+                <div class="score-divs">Draws:</div><span class="score-divs" id="draws">0</span><br>
+            </div>
+            
+
+            <div id="back-image">
+                <div class="draw">Draw</div>
+                <div class="player-win">Player Wins!</div>
+                <div class="computer-win">Computer Wins!</div>
+            </div>
+            
+        
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="./script.js"></script>
+    </body>
+</html>

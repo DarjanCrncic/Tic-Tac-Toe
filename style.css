@@ -1,0 +1,125 @@
+body{
+    background:#2a2a2a; 
+}
+
+.horizontal-line{
+    position: absolute;
+    background-color: white;
+    height: 50px;
+    width: 60%;
+    border-radius: 25px;
+    left: 20%;
+}
+
+.vertical-line{
+    top: 5%;
+    background-color: white;
+    position: absolute;
+    height: 90%;
+    width: 50px;
+    border-radius: 25px; 
+}
+
+.field{
+    background:  transparent;
+    border: none;
+    position: absolute; 
+    width: 16%;
+    height: 25%;
+    cursor: pointer;
+	outline: inherit;
+    justify-content: center;
+    color: white;
+    font-size: 8rem;
+    font-weight: 900;
+}
+
+.draw, .player-win, .computer-win{
+    width: 50%;
+    text-align: center;
+    font-size: 15rem;
+    color: white;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    display: none;
+}
+
+.player-win, .computer-win{
+    top: 10%;
+}
+
+#reset{
+    width: 8rem;
+    height: 4rem;
+    font-size: 2rem;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+}
+
+.score-divs{
+    color: white;
+    font-size: 2rem;  
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.score{
+    margin-top: 20px;
+}
+
+/* positioning of elements */
+
+.vertical-first{
+    left: calc(40% - 25px);
+}
+
+.vertical-second{
+    left: calc(60% - 25px);
+}
+
+.horizontal-first{
+    top: calc(32.5% - 25px);
+}
+
+.horizontal-second{
+    top: calc(67.5% - 25px);
+}
+
+#field_1{
+    top: 3%;
+    left: 22%;
+}
+#field_2{
+    top: 3%;
+    left: 42%;
+}
+#field_3{
+    top: 3%;
+    left: 62%;
+}
+#field_4{
+    top: 37.5%;
+    left: 22%;
+}
+#field_5{
+    top: 37.5%;
+    left: 42%;
+}
+#field_6{
+    top: 37.5%;
+    left: 62%;
+}
+#field_7{
+    top: 72.5%;
+    left: 22%;
+}
+#field_8{
+    top: 72.5%;
+    left: 42%;
+}
+#field_9{
+    top: 72.5%;
+    left: 62%;
+}
