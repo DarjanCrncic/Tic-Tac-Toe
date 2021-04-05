@@ -1,4 +1,4 @@
 # Tic-Tac-Toe
 Simple tic tac to game.
 
-Link: https://darjancrncic.github.io/TicTacToe/
+URL: https://darjancrncic.github.io/Tic-Tac-Toe/
