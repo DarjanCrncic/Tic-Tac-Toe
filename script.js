@@ -16,7 +16,11 @@ function play() {
                 $('.player-win').show();
                 increaseScore("wins");
                 $('#board').hide();
+                setTimeout(function(){
+                    $('#reset').trigger('click');
+                }, 1000);
             }, 500);
+
         }else{
             let computerMove = AImove(computerFields, takenFields, false);
             if(computerMove == 0){
@@ -36,6 +40,9 @@ function play() {
                         $('.computer-win').show();
                         increaseScore("losses");
                         $('#board').hide();
+                        setTimeout(function(){
+                            $('#reset').trigger('click');
+                        }, 1000);
                     }, 500);
                 }              
             }
@@ -47,8 +54,10 @@ function play() {
         setTimeout(function(){
             $('.draw').show();
             $('#board').hide();
+            setTimeout(function(){
+                $('#reset').trigger('click');
+            }, 1000);
         }, 500);
-        
     }
 }
 $('.field').click(play);
